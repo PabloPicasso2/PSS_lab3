@@ -11,7 +11,7 @@
  */
 int main()
 {
-    auto pi = PI(0.0, 10.0, 1.0, 1.0, 2.0);
+    auto pi = PI(0.0, 20.0, 1.0, 1.0, 2.0);
     auto arx = ARX({1.0, 0.5}, {-0.5}, 1, 0);
     arx.save("config.csv");
     pi.set_setPoint(1.0);
