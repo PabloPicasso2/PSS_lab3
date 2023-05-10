@@ -1,0 +1,1 @@
+g++ -o main main.cpp siso/siso.cpp pid/pid.cpp arx/arx.cpp pi/pi.cpp pd/pd.cpp
